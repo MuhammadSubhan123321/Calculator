@@ -23,13 +23,6 @@ This project demonstrates the use of DOM manipulation, event handling, and basic
 
 -JavaScript → Handles calculation logic using eval() (for educational purposes only).
 
-📂 **Project Structure**
-Calculator-Project/
-│
-├── index.html        # Main calculator interface
-├── Calculator.css    # Stylesheet for design and buttons
-└── Calculator.js     # JavaScript logic (calculation handling)
-
 📖 **How It Works**
 
 - Each button appends its value to a global string variable calculation.
