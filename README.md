@@ -40,12 +40,12 @@ This project demonstrates the use of DOM manipulation, event handling, and basic
 - In production, consider building a custom parser for safety.
 
 📌 **Example Usage**
-- User clicks: 1 → 2 → + → 3 → =
-- Console Output: 15
+- User clicks: 2 → + → 3 → =
+- Console Output: 5
 
 **Display shows:**
 
-15
+5
 
 🎯 **Future Improvements**
 
