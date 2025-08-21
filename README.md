@@ -1,62 +1,64 @@
-🧮 Calculator Project
+🧮 Web Calculator
 
-**A simple web-based calculator built with HTML, CSS, and JavaScript.
-This project demonstrates the use of DOM manipulation, event handling, and basic arithmetic logic in JavaScript.**
+**A simple and elegant web-based calculator built with HTML, CSS, and JavaScript.
+This calculator supports basic arithmetic operations (+, −, ×, ÷), persistent storage using localStorage, and a clean user interface.**
 
 🚀 **Features**
 
-✅ Perform basic arithmetic operations (+, -, *, /).
+➕ Addition, ➖ Subtraction, ✖️ Multiplication, ➗ Division
 
-✅ Clear button to reset the current calculation.
+✅ Supports decimal values
 
-✅ User-friendly UI with styled buttons.
+💾 Persistent storage: keeps the last calculation even after refreshing the page
 
-✅ Console logging of every step for debugging and learning.
+🧹 Clear button to reset calculations
 
-✅ Minimal, clean design with custom CSS.
+🎨 Minimal UI with styled buttons
 
-🛠️ **Technologies Used**
+🛠️ How It Works
 
--HTML5 → Structure of the calculator.
+**index.html**
 
--CSS3 → Styling with custom classes (darkbutton, orangebutton).
+- Defines the calculator layout (buttons, display area).
 
--JavaScript → Handles calculation logic using eval() (for educational purposes only).
+- Links style.css for design and script.js for functionality.
 
-📖 **How It Works**
+**style.css**
 
-- Each button appends its value to a global string variable calculation.
+- Provides styling for number buttons, operators, and display.
 
-- When = is clicked, eval(calculation) executes the string as a math expression.
+- Uses a minimal color palette for professional look.
 
-- Clear resets the calculation to an empty string.
+**script.js**
 
-- Console logs (console.log) show current calculations for debugging.
+- Handles button clicks and updates the calculation.
 
-⚠️ **Note**
+- Uses eval() for arithmetic operations (⚠️ safe only for learning purposes).
 
-- eval() is used here for learning purposes only.
+- Stores and retrieves data from localStorage.
 
-- In production, consider building a custom parser for safety.
+- Displays results dynamically in the DOM.
 
-📌 **Example Usage**
-- User clicks: 2 → + → 3 → =
-- Console Output: 5
 
-**Display shows:**
+📦** Installation & Usage**
 
-5
+- Clone the repository and open index.html in your browser:
 
-🎯 **Future Improvements**
+# Open index.html in browser
 
-- Add calculation history using localStorage + JSON.
+Or simply drag and drop the index.html file into your browser.
 
-- Display calculations directly on the UI (instead of only console).
+🧹 **Clearing Calculations**
 
-- Add support for keyboard input.
+- The Clear button resets both the display and localStorage.
 
-- Improve error handling for invalid expressions.
+- Refreshing the page does not remove calculations unless cleared manually.
+
+⚠️**Note on eval()**
+
+This project uses JavaScript’s eval() for arithmetic, which should not be used in production due to security risks.
+For a real-world project, consider implementing a safe parser for expressions.
 
 👨‍💻 **Author**
 
-Developed by Muhammad Subhan as a practice project for learning JavaScript fundamentals.
+Developed by Muhammad Subhan
