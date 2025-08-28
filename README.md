@@ -59,6 +59,6 @@ Or simply drag and drop the index.html file into your browser.
 This project uses JavaScript’s eval() for arithmetic, which should not be used in production due to security risks.
 For a real-world project, consider implementing a safe parser for expressions.
 
-👨‍💻 **Author**
+👨‍💻 **Developer**
 
-Developed by Muhammad Subhan
+Muhammad Subhan – Full-Stack Developer (in progress)
